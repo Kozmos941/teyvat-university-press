@@ -1,0 +1,157 @@
+body {
+  font-family: 'HYWenHei', 'Noto Sans SC', sans-serif;
+  /* font-family: 'Noto Serif SC', serif; */
+  font-weight: 500;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Noto Serif SC', serif;
+  font-weight: 900;
+}
+
+.app-name a {
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.sidebar .sidebar-nav>ul>li a {
+  font-family: 'Noto Serif SC', serif;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0
+}
+
+/* 伤害乘区 --------------------------------------- */
+.Attack {
+  color: #dd0000;
+}
+
+.Multipiler {
+  color: #102783;
+}
+
+.Bonus {
+  color: #4169e1;
+}
+
+.Critical {
+  color: #3d9f0e;
+}
+
+.Reaction {
+  color: #800080;
+}
+
+.Defense {
+  color: #d2691e;
+}
+
+.Resistance {
+  color: #2e8b57;
+}
+
+/* -------------------------------------------------- */
+
+/* 加粗 */
+.bold,
+.bold .katex {
+  font-weight: 700;
+}
+
+.katex .cjk_fallback {
+  font-family: 'Noto Serif SC', serif;
+  font-weight: 500;
+}
+
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #42b983;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: #ecf8f2;
+}
+
+
+/* 元素 */
+span.anemo.element {
+  color: #72e2c3;
+}
+
+span.cyro.element {
+  color: #a0e9e5;
+}
+
+span.dendro.element {
+  color: #23c18a;
+}
+
+span.electro.element {
+  color: #a757cb;
+}
+
+span.geo.element {
+  color: #e3b342;
+}
+
+span.hydro.element {
+  color: #21e1eb;
+}
+
+span.pyro.element {
+  color: #fe925d;
+}
+
+span.element {
+  font-family: 'Noto Serif SC', serif;
+  font-weight: 900;
+  font-size: 1.1rem;
+  margin: .05rem;
+}
+
+span.reaction {
+  font-family: 'HYWenHei';
+  font-size: 1rem;
+}
+
+span.reaction.Frozen {
+  color: #66ccff;
+}
+
+span.reaction.Vaporize {
+  color: #eeba5d;
+}
+
+span.reaction.Electro-Charged {
+  color: #a757cb;
+}
+
+span.reaction.Overloaded {
+  /* color: #66ccff; */
+}
+
+span.reaction.Superconduct {
+  /* color: #66ccff; */
+}
+
+span.reaction.Swirl {
+  color: #23c18a;
+}
+
+span.reaction.Melt {
+  /* color: #66ccff; */
+}
+
+span.reaction.Crystallize {
+  color: #ff9b00;
+}
