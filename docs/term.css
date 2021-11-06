@@ -1,0 +1,145 @@
+/** 伤害乘区 
+ *
+*/
+
+/* 伤害乘区
+ * 攻击 - Attack
+ * 倍率 - Multiplier
+ * 增伤 - Bonus
+ * 暴击 - Critical
+ * 反应 - Reaction
+ * 防御 - Defence
+ * 抗性 - Resistance
+ */
+
+.Attack {
+  color: #dd0000;
+}
+
+.Multiplier {
+  color: #102783;
+}
+
+.Bonus {
+  color: #4169e1;
+}
+
+.Critical {
+  color: #3d9f0e;
+}
+
+.Reaction {
+  color: #800080;
+}
+
+.Defense {
+  color: #d2691e;
+}
+
+.Resistance {
+  color: #2e8b57;
+}
+
+/* 元素 
+ * 风 - anemo
+ * 冰 - cyro
+ * 草 - dendro
+ * 雷 - electro
+ * 岩 - geo
+ * 水 - hydro
+ * 火 - pyro
+ */
+element {
+  font-family: 'Noto Serif SC', serif;
+  font-weight: 900;
+  font-size: 1.1rem;
+  margin: .05rem;
+}
+
+element.anemo {
+  color: #80ffd7;
+  color: #72e2c3;
+}
+
+element.cyro {
+  color: #99ffff;
+  color: #a0e9e5;
+}
+
+element.dendro {
+  color: #23c18a;
+}
+
+element.electro {
+  color: #ffacff;
+  color: #a757cb;
+}
+
+element.geo {
+  color: #ffe699;
+  color: #e3b342;
+}
+
+element.hydro {
+  color: #80c0ff;
+  color: #21e1eb;
+}
+
+element.pyro {
+  color: #ff9999;
+  color: #fe925d;
+}
+
+/* 元素反应 
+ * 冻结 - Frozen
+ * 蒸发 - Vaporize
+ * 感电 - Electro-Charged
+ * 过载 - Overloaded
+ * 超导 - Superconduct
+ * 扩散 - Swirl
+ * 融化 - Melt
+ * 结晶 - Crystalize
+ * 潮湿 - Wet
+ */
+reaction {
+  font-family: 'HYWenHei';
+  font-size: 1rem;
+  font-weight: 900;
+}
+
+reaction.Frozen {
+  color: #99ffff;
+  color: #66cccc;
+}
+
+reaction.Vaporize {
+  color: #eeba5d;
+}
+
+reaction.Electro-Charged {
+  color: #e19bff;
+}
+
+reaction.Overloaded {
+  color: #ff809b;
+}
+
+reaction.Superconduct {
+  color: #b4b4ff;
+}
+
+reaction.Swirl {
+  color: #66ffcc;
+}
+
+reaction.Melt {
+  color: #ffc700;
+}
+
+reaction.Crystallize {
+  color: #ff9b00;
+}
+
+reaction.Wet {
+  color: #33ccff;
+}
