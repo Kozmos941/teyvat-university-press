@@ -93,7 +93,7 @@ element.pyro {
 /* 元素反应 
  * 冻结 - Frozen
  * 蒸发 - Vaporize
- * 感电 - Electro-Charged
+ * 感电 - ElectroCharged
  * 过载 - Overloaded
  * 超导 - Superconduct
  * 扩散 - Swirl
@@ -116,7 +116,7 @@ reaction.Vaporize {
   color: #eeba5d;
 }
 
-reaction.Electro-Charged {
+reaction.ElectroCharged {
   color: #e19bff;
 }
 

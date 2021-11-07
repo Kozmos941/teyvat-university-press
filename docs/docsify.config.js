@@ -4,6 +4,8 @@ window.$docsify = {
   repo: 'Kozmos941/teyvat-university-press',
   coverpage: true,
   onlyCover: true,
-  // plugins,
+  plugins: [
+    元素命名法
+  ]
 }
 
