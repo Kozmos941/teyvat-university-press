@@ -1,0 +1,118 @@
+/* 伤害乘区
+ * 攻击 - Attack
+ * 倍率 - Multiplier
+ * 增伤 - Bonus
+ * 暴击 - Critical
+ * 反应 - Reaction
+ * 防御 - Defence
+ * 抗性 - Resistance
+ */
+
+term {
+  font-style: italic;
+  color: #7f8c8d;
+}
+
+.Attack {
+  color: var(--attack-color);
+}
+
+.Multiplier {
+  color: var(--multiplier-color);
+}
+
+.Bonus {
+  color: var(--bonus-color);
+}
+
+.Critical {
+  color: var(--critical-color);
+}
+
+.Reaction {
+  color: var(--reaction-color);
+}
+
+.Defense {
+  color: var(--defense-color);
+}
+
+.Resistance {
+  color: var(--resistance-color);
+}
+
+element {
+  font-family: 'Noto Serif SC', serif;
+  font-weight: 900;
+  font-size: 1.05rem;
+}
+
+element.anemo {
+  color: var(--e-anemo-color)
+}
+
+element.cryo {
+  color: var(--e-cryo-color)
+}
+
+element.dendro {
+  color: var(--e-dendro-color)
+}
+
+element.electro {
+  color: var(--e-electro-color)
+}
+
+element.geo {
+  color: var(--e-geo-color)
+}
+
+element.hydro {
+  color: var(--e-hydro-color)
+}
+
+element.pyro {
+  color: var(--e-pyro-color)
+}
+
+reaction {
+  font-family: 'HYWenHei';
+  font-size: 1rem;
+  font-weight: 900;
+}
+
+reaction.Frozen {
+  color: var(--r-frozen-color);
+}
+
+reaction.Vaporize {
+  color: var(--r-vaporize-color);
+}
+
+reaction.ElectroCharged {
+  color: var(--r-e-charged-color);
+}
+
+reaction.Overloaded {
+  color: var(--r-overloaded-color);
+}
+
+reaction.Superconduct {
+  color: var(--r-sp-conduct-color);
+}
+
+reaction.Swirl {
+  color: var(--r-swirl-color);
+}
+
+reaction.Melt {
+  color: var(--r-melt-color);
+}
+
+reaction.Crystallize {
+  color: var(--r-crystalize-color);
+}
+
+reaction.Wet {
+  color: var(--r-wet-color);
+}

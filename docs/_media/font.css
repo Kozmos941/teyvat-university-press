@@ -1,0 +1,17 @@
+@font-face {
+  font-family: HYWenHei;
+  font-weight: 400;
+  src: url('./HYWenHei-45W.ttf');
+}
+
+@font-face {
+  font-family: HYWenHei;
+  font-weight: 500;
+  src: url('./HYWenHei-55W.ttf');
+}
+
+@font-face {
+  font-family: HYWenHei;
+  font-weight: 800;
+  src: url('./HYWenHei-85W.ttf');
+}

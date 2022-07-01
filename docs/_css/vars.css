@@ -1,0 +1,38 @@
+:root {
+  /* 元素反应 */
+  /* 99ffff */
+  --r-frozen-color: #66cccc;
+  --r-vaporize-color: #eeba5d;
+  --r-e-charged-color: #e19bff;
+  --r-overloaded-color: #ff809b;
+  --r-sp-conduct-color: #b4b4ff;
+  --r-swirl-color: #66ffcc;
+  --r-melt-color: #ffc700;
+  --r-crystalize-color: #ff9b00;
+  --r-wet-color: #33ccff;
+
+  /* 元素 */
+  /* 80ffd7 */
+  --e-anemo-color: #72e2c3;
+  /* 99ffff */
+  --e-cryo-color: #a0e9e5;
+  /* 23c18a */
+  --e-dendro-color: #23c18a;
+  /* ffacff */
+  --e-electro-color: #a757cb;
+  /* ffe699 */
+  --e-geo-color: #e3b342;
+  /* 80c0ff */
+  --e-hydro-color: #21e1eb;
+  /* ff9999 */
+  --e-pyro-color: #fe925d;
+
+  /* 伤害乘区 */
+  --attack-color: #dd0000;
+  --multiplier-color: #102783;
+  --bonus-color: #4169e1;
+  --critical-color: #3d9f0e;
+  --reaction-color: #800080;
+  --defense-color: #d2691e;
+  --resistance-color: #2e8b57;
+}

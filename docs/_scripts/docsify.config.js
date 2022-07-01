@@ -6,6 +6,12 @@ window.$docsify = {
   onlyCover: true,
   plugins: [
     元素命名法
-  ]
+  ],
+  markdown: {
+    // smartypants: true,
+    renderer: {
+      em: (text) => `<term>${text}</term>`
+    }
+  }
 }
 

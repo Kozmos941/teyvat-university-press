@@ -1,9 +1,14 @@
+@import url(vars.css);
 @import url(term.css);
+@import url(../_media/font.css);
 
 body {
   font-family: 'HYWenHei', 'Noto Sans SC', sans-serif;
   /* font-family: 'Noto Serif SC', serif; */
   font-weight: 500;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* -webkit-font-smoothing: none; */
 }
 
 h1,
@@ -38,10 +43,19 @@ h6 {
   font-weight: 700;
 }
 
+.katex-display>.katex>.katex-html  {
+  text-align: left;
+  margin-left: 2rem;
+}
+
 .katex .cjk_fallback {
   font-family: 'Noto Serif SC', serif;
-  font-size: 1.05rem;
+  font-size: 1rem;
   font-weight: 500;
+}
+
+.katex .cjk_fallback.mtight {
+  font-size: .7rem;
 }
 
 ::-webkit-scrollbar {
@@ -55,4 +69,21 @@ h6 {
 
 ::-webkit-scrollbar-track {
   background: #ecf8f2;
+}
+
+/* Logo 动画 */
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 15s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
 }
